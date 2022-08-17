@@ -169,7 +169,7 @@ export const Bench = (props) => {
           </svg>
         </motion.div>
 
-        <motion.div variants={right} initial="hidden" whileInView={'visible'}>
+        <motion.div className="z-50" variants={right} initial="hidden" whileInView={'visible'}>
           <Typography variant="yeloo" className=" z-20  text-[#C7B36D]">
             {subText}
           </Typography>

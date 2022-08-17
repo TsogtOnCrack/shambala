@@ -74,7 +74,7 @@ export const Bighead = () => {
           )
         })}
       </div>
-      <Divider className="bg-white/40" />
+      <Divider className="bg-white/40 my-1" />
       {data.tablet.map((el) => {
         const selected = router.pathname == el.link
         return (
